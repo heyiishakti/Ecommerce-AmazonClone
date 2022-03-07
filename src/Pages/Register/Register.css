@@ -1,0 +1,93 @@
+.register{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    background-color: white;
+}
+
+.registerLogo{
+    width: 200px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    object-fit: contain;
+    margin-left: 24%;
+}
+
+.registerContainer{
+     width: 300px;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+    padding: 20px;
+}
+
+.registerContainer> h1 {
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.registerContainer> form > h5 {
+    margin-bottom: 5px;
+    font-weight: 500;
+
+}
+
+.registerContainer>form>input{
+    height: 30px;
+    margin-bottom: 10px;
+    background-color: white;
+    width: 98%;
+    border-style:solid;
+}
+
+.registerContainer> p{
+    font-size: 11px;
+}
+
+.registerButton{
+    background: #f0c14b;
+  border-radius: 2px;
+  width: 100%;
+  height: 30px;
+  border: 1px solid;
+  margin-top: 10px;
+  background-color: #a88734 #9c7e31 #846a29;
+  color: #111;
+  margin-bottom: 5px;
+  cursor: pointer;
+  font-weight: 550;
+}
+
+.button{
+    background: #fa5243;
+  border-radius: 2px;
+  width: 100%;
+  height: 30px;
+  border: 1px solid;
+  margin-top: 10px;
+  background-color: #a88734 #9c7e31 #846a29;
+  color: #111;
+  margin-bottom: 5px;
+  cursor: pointer;
+  font-weight: 550;
+  border-style: none;
+}
+
+.buttonFacebook{
+    background: #1a7df6;
+    box-shadow: gray;
+  border-radius: 2px;
+  width: 100%;
+  height: 30px;
+  border: 1px solid;
+  margin-top: 10px;
+  background-color: #a88734 #9c7e31 #846a29;
+  color: #111;
+  margin-bottom: 5px;
+  cursor: pointer;
+  font-weight: 550;
+  border-style: none;
+}
